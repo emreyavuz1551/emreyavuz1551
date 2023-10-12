@@ -1,7 +1,7 @@
  ![MasterHead](https://www.kampuskod.com/wp-content/uploads/2019/03/programming-languages-premium-featured.png)
 
 <h1 align="center">Hi 👋, I'm Emre Yavuz</h1>
-<h3 align="center">Hello, I am an Electrical and Electronics Engineering student at Izmir Katip Celebi University.</h3>
+<h3 align="center"> I am an Electrical and Electronics Engineering student at Izmir Katip Celebi University.</h3>
 
 - 🌱 I’m currently learning **Python,C and C++**
 
