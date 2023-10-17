@@ -19,16 +19,15 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Generates a snake game from a GitHub user (<emreyavuz1551>) contributions graph, output a svg animation at <svg_out_path>
+      # Generates a snake game from a GitHub user's (<emreyavuz1551>) contributions graph, output a svg animation at <svg_out_path>
       - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk@v3
+        uses: Platane/snk@master
         with:
           github_user_name: emreyavuz1551
           output_dir: dist
           extra_colors: "github-dark"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
           
       # Push the content of <build_dir> to a branch
       # The content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file>, or as a GitHub page
@@ -37,3 +36,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
